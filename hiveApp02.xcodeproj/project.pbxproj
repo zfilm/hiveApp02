@@ -24,6 +24,7 @@
 		5AB7B8CA1895868F00C55AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB7B8A31895868F00C55AB8 /* UIKit.framework */; };
 		5AB7B8D21895868F00C55AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB7B8D01895868F00C55AB8 /* InfoPlist.strings */; };
 		5AB7B8D41895868F00C55AB8 /* hiveApp02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7B8D31895868F00C55AB8 /* hiveApp02Tests.m */; };
+		5AB7B8DE189586D400C55AB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB7B8DD189586D400C55AB8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		5AB7B8CF1895868F00C55AB8 /* hiveApp02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hiveApp02Tests-Info.plist"; sourceTree = "<group>"; };
 		5AB7B8D11895868F00C55AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AB7B8D31895868F00C55AB8 /* hiveApp02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hiveApp02Tests.m; sourceTree = "<group>"; };
+		5AB7B8DD189586D400C55AB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			files = (
 				5AB7B8A21895868F00C55AB8 /* CoreGraphics.framework in Frameworks */,
 				5AB7B8A41895868F00C55AB8 /* UIKit.framework in Frameworks */,
+				5AB7B8DE189586D400C55AB8 /* MapKit.framework in Frameworks */,
 				5AB7B8A01895868F00C55AB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +112,7 @@
 		5AB7B89E1895868F00C55AB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AB7B8DD189586D400C55AB8 /* MapKit.framework */,
 				5AB7B89F1895868F00C55AB8 /* Foundation.framework */,
 				5AB7B8A11895868F00C55AB8 /* CoreGraphics.framework */,
 				5AB7B8A31895868F00C55AB8 /* UIKit.framework */,
@@ -212,6 +216,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Morten Bøe";
 				TargetAttributes = {
+					5AB7B89B1895868F00C55AB8 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					5AB7B8C51895868F00C55AB8 = {
 						TestTargetID = 5AB7B89B1895868F00C55AB8;
 					};
